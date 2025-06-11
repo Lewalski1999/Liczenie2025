@@ -2,9 +2,8 @@
 import streamlit as st
 from math import ceil
 
-st.image("https://i.imgur.com/yourlogo.png", width=200)
-
 st.set_page_config(page_title="Kalkulator kartonów", layout="centered")
+st.image("https://i.imgur.com/yourlogo.png", width=200)
 st.title("📦 Kalkulator wymiarów kartonu")
 
 # Pobieranie danych od użytkownika
