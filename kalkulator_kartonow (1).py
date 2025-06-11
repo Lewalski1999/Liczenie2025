@@ -39,4 +39,4 @@ if st.button("Oblicz"):
         st.error("Wystąpił błąd podczas obliczeń. Upewnij się, że dane są poprawne.")
 
 st.markdown("---")
-st.caption("Autor: Kuba ")
+st.caption("Autor: Kuba1999 ")
