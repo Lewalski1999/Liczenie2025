@@ -17,10 +17,10 @@ if st.button("Oblicz"):
         width_cm = ceil(width_mm / 10)
         height_cm = ceil(height_mm / 10)
 
-        height_fill = height_cm - 6
+        height_fill = height_cm + 6
 
-        dimension_A = ceil(length_cm + 14 + 2 * height_fill)
-        dimension_B = ceil(width_cm + 14 + 2 * height_fill)
+        dimension_A = (length_cm + 14) + 2 * height_fill
+        dimension_B = (width_cm + 14) + 2 * height_fill
         czepek_A = dimension_A + 4
         czepek_B = dimension_B + 4
 
